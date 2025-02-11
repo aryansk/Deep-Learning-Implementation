@@ -18,6 +18,8 @@
 
 ---
 
+![Unknown](https://github.com/user-attachments/assets/55d938df-24c6-464b-a4a2-93ea0f12c92a)
+
 ## 🎯 Part 1: Optimizers and Regularization
 
 > **Definitions**
