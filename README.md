@@ -112,8 +112,38 @@ graph LR
 > - **MNIST**: 70,000 28x28 grayscale handwritten digits
 > - **Fashion-MNIST**: 70,000 28x28 grayscale fashion items
 
-[Previous tables and charts remain the same...]
+#### CIFAR-10 Results
+```
+Accuracy (%)
+┌────────────┬────────┬────────┐
+│ Model      │Original│ Custom │
+├────────────┼────────┼────────┤
+│ VGG16      │  89.2  │  91.5  │
+│ ResNet50   │  90.8  │  93.2  │
+└────────────┴────────┴────────┘
+```
 
+#### CIFAR-100 Results
+```
+Accuracy (%)
+┌────────────┬────────┬────────┐
+│ Model      │Original│ Custom │
+├────────────┼────────┼────────┤
+│ VGG16      │  71.4  │  74.8  │
+│ ResNet50   │  73.2  │  76.5  │
+└────────────┴────────┴────────┘
+```
+
+### 🎯 Performance Overview
+
+| Dataset | Best Model | Accuracy | Inference Time |
+|---------|------------|----------|----------------|
+| CIFAR-10 | Custom ResNet50 | 93.2% | ⚡ 0.023s |
+| CIFAR-100 | Custom ResNet50 | 76.5% | ⚡ 0.025s |
+| MNIST | Custom VGG16 | 99.3% | ⚡ 0.018s |
+| Fashion MNIST | Custom ResNet50 | 94.1% | ⚡ 0.021s |
+
+---
 ## 💡 Recommendations
 
 > **Implementation Tips**
@@ -121,7 +151,6 @@ graph LR
 > - **Learning Rate**: Step size during optimization
 > - **Epoch**: Complete pass through the entire dataset
 
-[Previous recommendations section remains the same...]
 
 ## 📝 Technical Specifications
 
@@ -131,7 +160,6 @@ graph LR
 > - **Matplotlib**: Plotting library for visualization
 > - **Scikit-learn**: Machine learning utility library
 
-[Previous technical specifications remain the same...]
 
 ## 🏆 Conclusion
 
